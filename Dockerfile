@@ -5,6 +5,6 @@ RUN mvn clean package -DskipTests
 
 # Stage 2: Run the application
 FROM openjdk:18-ea-8-jdk-slim
-COPY --from=build /target/mycart-1.0-SNAPSHOT.war mycart.war
+COPY --from=build /target/mycart-1.0-SNAPSHOT.jar mycart.jar
 EXPOSE 8089
 ENTRYPOINT ["java", "-jar", "mycart.jar"]
