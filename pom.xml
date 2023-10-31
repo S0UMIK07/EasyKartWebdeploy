@@ -101,8 +101,7 @@
                     <archive>
           <manifest>
             <addClasspath>true</addClasspath>
-            <classpathPrefix>lib/</classpathPrefix>
-            <mainClass>com.mycompany.mycart.WebPages</mainClass>
+            
           </manifest>
         </archive>
                 </configuration>
