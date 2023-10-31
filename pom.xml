@@ -101,8 +101,8 @@
                     <archive>
           <manifest>
             <addClasspath>true</addClasspath>
-              <classpathPrefix>lib/</classpathPrefix>
-              <classpathLayoutType>repository</classpathLayoutType>
+               <classpathLayoutType>custom</classpathLayoutType>
+               <customClasspathLayout>WEB-INF/lib/$${artifact.groupIdPath}/$${artifact.artifactId}-$${artifact.version}$${dashClassifier?}.$${artifact.extension}</customClasspathLayout>
           </manifest>
         </archive>
                 </configuration>
