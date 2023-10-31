@@ -102,7 +102,7 @@
           <manifest>
             <addClasspath>true</addClasspath>
             <classpathPrefix>lib/</classpathPrefix>
-            <mainClass>com.mycompany.mycart.src.main.webapp.WEB-INF</mainClass>
+            <mainClass>com.mycompany.mycart</mainClass>
           </manifest>
         </archive>
                 </configuration>
